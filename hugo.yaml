@@ -1,4 +1,38 @@
-theme: 'hugo-simple'
+theme: "hugo-simple"
+enableEmoji: true
+
+menus:
+  main:
+  - name: Home
+    pageRef: /
+    weight: 10
+  # - name: Heroes
+  #   pageRef: /heroes
+  #   weight: 20
+  - name: Mechanics
+    pageRef: /mechanics
+    weight: 30
+  - name: Events
+    pageRef: /events
+    weight: 40
 
 params:
   hideRSSLink: true
+  favicon: favicon.png
+  editPagePrefix: "https://gitlab.com/-/ide/project/piebox/top-heroes/edit/main/-/content/"
+
+defaultContentLanguage: en
+languages:
+  en:
+    contentDir: content/en
+    disabled: false
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: English
+    title: Top Heroes PieBox 🍖 🥧 📦
+    weight: 1
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

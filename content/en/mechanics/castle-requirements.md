@@ -1,7 +1,8 @@
 +++
 date = '2024-12-14T20:14:40+01:00'
-draft = true
+draft = false
 title = 'Castle Requirements'
+description = 'Resources and buildings needed to upgrade castle'
 +++
 
 
