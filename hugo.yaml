@@ -1,0 +1,4 @@
+theme: 'hugo-simple'
+
+params:
+  hideRSSLink: true

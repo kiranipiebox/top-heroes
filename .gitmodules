@@ -1,0 +1,6 @@
+[submodule "hugo-fresh"]
+	path = hugo-fresh
+	url = https://github.com/StefMa/hugo-fresh.git
+[submodule "themes/hugo-simple"]
+	path = themes/hugo-simple
+	url = https://github.com/maolonglong/hugo-simple.git
