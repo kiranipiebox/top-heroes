@@ -27,5 +27,6 @@ Step 4 - Type in the gift code and click "confirm"
 - HarvestSeason
 - 2024TOPHEROES
 - TopHeroes2024
-
-
+- JingleBellSTH
+- THSnowMan
+- MistletoETH
