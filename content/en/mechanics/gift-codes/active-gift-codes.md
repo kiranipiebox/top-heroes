@@ -1,3 +1,7 @@
+---
+title: 'Active Gift Codes'
+---
+
 #### Active [gift codes](/mechanics/gift-codes)
 - Im1of100k
 - TH777
