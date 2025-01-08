@@ -3,7 +3,7 @@
 {{- if gt (len $item) 0 -}}
     {{- $item := index $item 0 -}}
     <div class="item {{ $item.rarity }}">
-        <img src="/items/{{ $item.name | urlize }}.webp" alt="{{ $item.name }}">
+        <img src="/images/items/{{ $item.name | urlize }}.webp" alt="{{ $item.name }}">
         {{- if (isset .Params "quantity") -}}
             <span>{{ .Get "quantity"}}</span>
         {{- end -}}
