@@ -31,6 +31,14 @@ languages:
     languageName: English
     title: Top Heroes PieBox 🍖 🥧 📦
     weight: 1
+  pt:
+    contentDir: content/pt
+    disabled: false
+    languageCode: pt-BR
+    languageDirection: ltr
+    languageName: Português
+    title: Top Heroes PieBox 🍖 🥧 📦
+    weight: 2
 
 markup:
   goldmark:
