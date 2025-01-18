@@ -128,7 +128,13 @@ td.text-right {
     display: flex;
 }
 
-.hero-stars {background-color: #E4BD7A; display: inline-flex;align-items: center;}
+.hero-stars {
+    background-color: #E4BD7A; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .hero-stars.level-6,
 .hero-stars.level-7,
 .hero-stars.level-8,
