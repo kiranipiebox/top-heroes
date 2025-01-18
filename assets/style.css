@@ -95,3 +95,64 @@ mythic = red
         gap: 2em;
     }
 }
+
+.text-center td,
+.text-center th {
+  text-align: center;
+}
+
+.text-vertical {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align: center;
+}
+
+.text-right,
+td.text-right {
+    text-align: right;
+}
+
+.bg-star1 {
+    background-color: #E4BD7A;
+}
+
+.bg-star2 {
+    background-color: #E9B0A5;
+}
+
+.bg-star3 {
+    background-color: #CFD6ED;
+}
+
+.star-option {
+    display: flex;
+}
+
+.hero-stars {background-color: #E4BD7A; display: inline-flex;align-items: center;}
+.hero-stars.level-6,
+.hero-stars.level-7,
+.hero-stars.level-8,
+.hero-stars.level-9,
+.hero-stars.level-10 {background-color: #E9B0A5;}
+.hero-stars.level-11,
+.hero-stars.level-12,
+.hero-stars.level-13,
+.hero-stars.level-14,
+.hero-stars.level-15 {background-color: #CFD6ED;}
+.hero-stars img { display: none; }
+.hero-stars.level-0 img:nth-child(1){ display: inline-flex; }
+.hero-stars.level-1 img:nth-child(2){ display: inline-flex; }
+.hero-stars.level-2 img:nth-child(n+2):nth-child(-n+3){ display: inline-flex; }
+.hero-stars.level-3 img:nth-child(n+2):nth-child(-n+4){ display: inline-flex; }
+.hero-stars.level-4 img:nth-child(n+2):nth-child(-n+5){ display: inline-flex; }
+.hero-stars.level-5 img:nth-child(n+2):nth-child(-n+6){ display: inline-flex; }
+.hero-stars.level-6 img:nth-child(7){ display: inline-flex; }
+.hero-stars.level-7 img:nth-child(n+7):nth-child(-n+8){ display: inline-flex; }
+.hero-stars.level-8 img:nth-child(n+7):nth-child(-n+9){ display: inline-flex; }
+.hero-stars.level-9 img:nth-child(n+7):nth-child(-n+10){ display: inline-flex; }
+.hero-stars.level-10 img:nth-child(n+7):nth-child(-n+11){ display: inline-flex; }
+.hero-stars.level-11 img:nth-child(12){ display: inline-flex; }
+.hero-stars.level-12 img:nth-child(n+12):nth-child(-n+13){ display: inline-flex; }
+.hero-stars.level-13 img:nth-child(n+12):nth-child(-n+14){ display: inline-flex; }
+.hero-stars.level-14 img:nth-child(n+12):nth-child(-n+15){ display: inline-flex; }
+.hero-stars.level-15 img:nth-child(n+12):nth-child(-n+16){ display: inline-flex; }
