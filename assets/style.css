@@ -162,3 +162,7 @@ td.text-right {
 .hero-stars.level-13 img:nth-child(n+12):nth-child(-n+14){ display: inline-flex; }
 .hero-stars.level-14 img:nth-child(n+12):nth-child(-n+15){ display: inline-flex; }
 .hero-stars.level-15 img:nth-child(n+12):nth-child(-n+16){ display: inline-flex; }
+
+.guild-race .legendary { background-color: #f3c25b7d; }
+.guild-race .epic { background-color: #a97ed87d; }
+.guild-race .rare { background-color: #66a1d77d; }

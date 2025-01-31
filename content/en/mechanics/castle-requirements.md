@@ -14,6 +14,20 @@ description: 'Resources and buildings needed to upgrade castle'
     </thead>
     <tbody>
         <tr>
+            <td>20</td>
+            <td></td>
+            <td>
+            {{% img-building name="Guild Hall" %}}
+            <br />
+            Guild Hall
+            </td>
+            <td>
+            {{% img-building name="Warehouse" %}}
+            <br />
+            Warehouse
+            </td>
+        </tr>
+        <tr>
             <td>21</td>
             <td>2.04</td>
             <td>
