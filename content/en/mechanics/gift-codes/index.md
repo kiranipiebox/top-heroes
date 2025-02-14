@@ -30,3 +30,4 @@ Step 4 - Type in the gift code and click "confirm"
 - JingleBellSTH
 - THSnowMan
 - MistletoETH
+- SerpentTH
